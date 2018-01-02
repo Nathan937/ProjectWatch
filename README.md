@@ -11,7 +11,7 @@ Mitglieder Hollet Nathan, Jean Fues, Luka Aude, Dantoing Nicolas
 1. [Kurze Bedienungsanleitung](#kurze-bedienungsanleitung)
 1. [User Stories](#user-stories)
 1. [Releaseplan](#releaseplan)
-1. [Dokumentation Sprint 1](#dokumentation-sprint-1)
+1. [Dokumentation Sprint 1](#dokumentation sprint 1)
     + [Taskliste der User Stories](#taskliste-der-user-stories)
     + [UML Klassen- und Sequenzdiagramme](#uml-klassen-und-sequenzdiagramme)
     + [Dokumentation wichtiger Code Snippets](#dokumentation-wichtiger-code-snippets)
