@@ -3,38 +3,37 @@
 Mitglieder Hollet Nathan, Jean Fues, Luka Aude, Dantoing Nicolas
 
 ## Inhaltsverzeichnis
+
   1. [Einleitung](#einleitung)
-  2. Ziele
-  3. Randbedingung
-  4. Build-Anleitung
-  5. Kurze Bedienungsanleitung
-  6. User Stories
-  7. Releaseplan
-  
-  8. Dokumentation Sprint 1
-    - Taskliste der User Stories
-    - UML Klassen- und Sequenzdiagramme
-    - Dokumentation wichtiger Code Snippets
-    - Testfaelle bedingt durch Akzeptanzkritierium
+1. [Ziele](#ziele)
+1. [Randbedingungen](#randbedingungen)
+1. [Build-Anleitung](#build-anleitung)
+1. [Kurze Bedienungsanleitung](#kurze-bedienungsanleitung)
+1. [User Stories](#user-stories)
+1. [Releaseplan](#releaseplan)
+1. [Dokumentation Sprint 1](#dokumentation-sprint-1)
+    + [Taskliste der User Stories](#taskliste-der-user-stories)
+    + [UML Klassen- und Sequenzdiagramme](#uml-klassen-und-sequenzdiagramme)
+    + [Dokumentation wichtiger Code Snippets](#dokumentation-wichtiger-code-snippets)
+    + [Testfaelle bedingt durch Akzeptanzkritierium](#testfaelle-bedingt-durch-akzeptanzkritierium)
     
-  9. Dokumentation Sprint 2
-    - Taskliste der User Stories
-    - UML Klassen- und Sequenzdiagramme
-    - Dokumentation wichtiger Code Snippets
-    - Testfaelle bedingt durch Akzeptanzkritierium
-
-  10. Dokumentation Sprint 1
-    - Taskliste der User Stories
-    - UML Klassen- und Sequenzdiagramme
-    - Dokumentation wichtiger Code Snippets
-    - Testfaelle bedingt durch Akzeptanzkritierium
+1. [Dokumentation Sprint 2](#dokumentation-sprint-2)
+    + [Taskliste der User Stories](#taskliste-der-user-stories)
+    + [UML Klassen- und Sequenzdiagramme](#uml-klassen-und-sequenzdiagramme)
+    + [Dokumentation wichtiger Code Snippets](#dokumentation-wichtiger-code-snippets)
+    + [Testfaelle bedingt durch Akzeptanzkritierium](#testfaelle-bedingt-durch-akzeptanzkritierium)
     
-  11. Dokumentation Sprint 1
-    -  Taskliste der User Stories
-    -  UML Klassen- und Sequenzdiagramme
-    -  Dokumentation wichtiger Code Snippets
-    -  Testfaelle bedingt durch Akzeptanzkritierium
-
+1. [Dokumentation Sprint 3](#dokumentation-sprint-3)
+    + [Taskliste der User Stories](#taskliste-der-user-stories)
+    + [UML Klassen- und Sequenzdiagramme](#uml-klassen-und-sequenzdiagramme)
+    + [Dokumentation wichtiger Code Snippets](#dokumentation-wichtiger-code-snippets)
+    + [Testfaelle bedingt durch Akzeptanzkritierium](#testfaelle-bedingt-durch-akzeptanzkritierium)
+    
+1. [Dokumentation Sprint 4](#dokumentation-sprint-4)
+    + [Taskliste der User Stories](#taskliste-der-user-stories)
+    + [UML Klassen- und Sequenzdiagramme](#uml-klassen-und-sequenzdiagramme)
+    + [Dokumentation wichtiger Code Snippets](#dokumentation-wichtiger-code-snippets)
+    + [Testfaelle bedingt durch Akzeptanzkritierium](#testfaelle-bedingt-durch-akzeptanzkritierium)
   
 ## Einleitung
 
