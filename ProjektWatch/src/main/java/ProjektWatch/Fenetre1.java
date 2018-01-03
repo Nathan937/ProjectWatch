@@ -21,7 +21,7 @@ public class Fenetre1 {
 	private JFrame frame;
 
 	
-	//Appel de la fenetre
+	//Appel de la fenetre : FENEEEEETREEE T'ES OU ????????????? 
 	
 	public Fenetre1() {
 		createFrame();
