@@ -10,8 +10,8 @@ import java.text.*;
 import java.util.*;
 
 public class DigitalWatch implements Runnable {
-	JFrame f;
-	Thread t = null;
+	
+	static Thread t = null;
 	String timeString = "";
 
 	int hours = 0, minutes = 0, seconds = 0;
@@ -76,9 +76,10 @@ public class DigitalWatch implements Runnable {
 				timeString = formatter.format(date);
 
 				printTime();
-
+System.out.println("C");
 				t.sleep(1000);
-				if(montre[0]==null)t.stop();
+				
+				
 			}
 		} catch (Exception e) {
 		}

@@ -15,6 +15,9 @@ import javax.swing.JPanel;
 import javax.swing.WindowConstants;
 
 public class MainUhr {
+	
+	static Boolean [] mode= {false,false,false};
+	
 	static JFrame frame;
 	static JMenuBar menu;
 	static JMenu analogUhr;
@@ -69,6 +72,10 @@ public class MainUhr {
 		digitaluhr24.addActionListener(new ActionListener() {
 			public void actionPerformed(ActionEvent arg0) {
 				System.out.println("New DigitalWatch is coming");
+				
+				System.out.println("Mode:"+mode);
+				Stop();
+				mode[0]=true;
 				new DigitalWatch3(frame);
 				
 				
@@ -96,7 +103,12 @@ public class MainUhr {
 
 				// remplacer ici le nombre Analowatchx() ( x allant de 0 à 4 )
 				
+				System.out.println("Mode:"+mode);
+				Stop();
+				mode[1]=true;
+			
 				new Analogwatch(frame);
+				
 				
 
 			}
@@ -108,8 +120,11 @@ public class MainUhr {
 		mehrereDigitaleuhren.addActionListener(new ActionListener() {
 			public void actionPerformed(ActionEvent arg0) {
 				System.out.println("New DigitalWatch is coming");
+				Stop();
+				mode[2]=true;
+				
 				new DigitalWatch(frame,1);
-				DigitalWatch3.clock1.t.stop();
+				
 				
 			}
 		
@@ -118,6 +133,8 @@ public class MainUhr {
 		mehrereDigitaleuhren2.addActionListener(new ActionListener() {
 			public void actionPerformed(ActionEvent arg0) {
 				System.out.println("New DigitalWatch is coming");
+				Stop();
+				mode[2]=true;
 				new DigitalWatch(frame,2);
 				
 			}
@@ -141,4 +158,13 @@ public class MainUhr {
 
 	}
 
+	public static void Stop() {
+		
+		if(mode[1]==true)Analogwatch.ClockEngine.interrupt();
+		if(mode[0]==true)DigitalWatch3.t.stop();
+		if(mode[2]==true)
+			{DigitalWatch.t.interrupt();
+		frame.getContentPane().removeAll();}
+		for(int i=0;i<mode.length;i++)mode[i]=false;
+	}
 }

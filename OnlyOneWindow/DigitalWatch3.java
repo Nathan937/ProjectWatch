@@ -15,27 +15,41 @@ import java.awt.event.ActionEvent;
 
 public class DigitalWatch3 {
 	static SimpleDigitalClock clock1;
-	
+	static Timer t=null;
 	public DigitalWatch3(JFrame frm) {
 		
 		
-		
-		clock1 = new SimpleDigitalClock();
-		frm.setBackground(Color.YELLOW);
-		
-		
+		frm.getContentPane().removeAll();
+		frm.setSize(510,530);
+		clock1 = new SimpleDigitalClock(this);
 		frm.add(clock1);
-		frm.pack();
+		
+		
+		
+		t = new Timer(1000, new ActionListener() {
+			public void actionPerformed(ActionEvent e) {
+				clock1.repaint();
+				System.out.println("D");
+			}
+		});
+		t.start();
 		frm.setVisible(true);
 	}
 
 
 	static class SimpleDigitalClock extends JPanel {
-		Timer t=null;
+		
 		String stringTime,stringTime2;
 		
 		String timeString="";
 		String ID ="Africa/Addis_Ababa";
+		
+		DigitalWatch3 parent;
+		
+	    public SimpleDigitalClock(DigitalWatch3 pt){
+	    	setSize(520,530);
+	        parent=pt;
+	    }
 
 		public void setStringTime2(String abcdefg) {
 			this.stringTime2 = abcdefg;
@@ -49,17 +63,7 @@ public class DigitalWatch3 {
 			return (a <= b) ? a : b;
 		}
 
-		SimpleDigitalClock() {
-			setVisible(true);
-			t = new Timer(1000, new ActionListener() {
-				public void actionPerformed(ActionEvent e) {
-					repaint();
-					
-				}
-			});
-			t.start();
-			
-		}
+		
 
 		@Override
 		public void paintComponent(Graphics v) {
@@ -84,8 +88,8 @@ public class DigitalWatch3 {
 			setStringTime2(morc[1]);
 			
 			v.setColor(Color.BLACK);
-			int length = Number(this.getWidth(), this.getHeight());
-			Font Font1 = new Font("SansSerif", Font.PLAIN, length / 5);
+			
+			Font Font1 = new Font("SansSerif", Font.PLAIN, 20);
 			
 			v.setFont(Font1);
 			v.drawString(stringTime, 50, 100);
@@ -93,9 +97,6 @@ public class DigitalWatch3 {
 			v.drawString(ID, 50, 200);
 		}
 
-		@Override
-		public Dimension getPreferredSize() {
-			return new Dimension(420, 200);
-		}
+	
 	}
 }

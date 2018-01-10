@@ -21,20 +21,19 @@ public class Analogwatch implements Runnable{
     public int hour;
     public int min;
     public int sec;
-    Thread ClockEngine=null;
+    static Thread ClockEngine=null;
      ClockDial cd;
     String timeString = "";
     String ID ="Africa/Addis_Ababa";
 
     public Analogwatch(JFrame f) {
+    	
+    	f.getContentPane().removeAll();
         f.setSize(510,530);
         cd=new ClockDial(this);
         f.add(cd);
-        Date curr=new Date();
-        String time=curr.toString();
-        hour=Integer.parseInt(time.substring(11,13));
-        min=Integer.parseInt(time.substring(14,16));
-        sec=Integer.parseInt(time.substring(17,19));
+        
+       
         
         ClockEngine= new Thread(this);
         ClockEngine.start();
@@ -69,7 +68,7 @@ public void run() {
 			
 			cd.repaint();
 			
-			System.out.println("Result: "+ dfm.format(a));
+			System.out.println("A");
 			
 
 			ClockEngine.sleep(1000);
@@ -91,7 +90,7 @@ class ClockDial extends JPanel{
 
 	Analogwatch parent;
     public ClockDial(Analogwatch pt){
-        setSize(520,530);
+        setSize(1000,1000);
         parent=pt;
     }
 
