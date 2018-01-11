@@ -1,4 +1,3 @@
-
 import java.awt.Color;
 import java.awt.Font;
 import java.awt.event.ActionEvent;
@@ -50,10 +49,7 @@ public class MainUhr {
 	}
 
 	// montre digitale 
-	
-	
-
-	public static void ListenerDigitalUhr() {
+    public static void ListenerDigitalUhr() {
 
 		digitaluhr.addActionListener(new ActionListener() {
 			public void actionPerformed(ActionEvent arg0) {
@@ -79,27 +75,6 @@ public class MainUhr {
 		});
 
 	}
-
-	/*
-	 * remplacer par notre multitude de montre trop classe // enlever le commentaire
-	 * tout en bas pour que cela fonctionne
-	 * 
-	 * 
-	 * 
-	 * 
-	 * 
-	 * 
-	 * 
-	 * 
-	 * 
-	 * public static void ListenerMehrereDigitaleUhren() {
-	 * 
-	 * mehrereDigitaleuhren.addActionListener(new ActionListener() { public void
-	 * actionPerformed(ActionEvent arg0) { DisplayMehrereDigitalUhr frame = new
-	 * DisplayMehrereDigitalUhr(); } });
-	 * 
-	 * }
-	 */
 
 	public static void main(String[] args) {
 

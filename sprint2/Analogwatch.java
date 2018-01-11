@@ -1,5 +1,3 @@
-
-
 import java.awt.Color;
 import java.awt.Font;
 import java.awt.Graphics;
@@ -56,12 +54,7 @@ public void run()
       } catch (InterruptedException ex) {}
 
     cd.repaint();
-    }
-}
-};
-}
-
-
+        }}};}
 class ClockDial extends JPanel{
 
 	Analogwatch parent;
@@ -70,7 +63,6 @@ class ClockDial extends JPanel{
         parent=pt;
     }
 
-   
     @Override
  public void paintComponent(Graphics g) {
         g.setColor(Color.BLACK);
@@ -116,7 +108,5 @@ class ClockDial extends JPanel{
         ypoints[1]=ty-4;
         ypoints[2]=ty+4;
         g.fillPolygon(xpoints, ypoints, 3);
-
     }
-
 }

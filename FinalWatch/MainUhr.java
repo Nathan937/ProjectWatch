@@ -44,11 +44,6 @@ public class MainUhr {
 	static JMenuItem ZeitZoneBerlin;
 	static JMenuItem ZeitZoneSydney;
 	static JMenuItem ZeitZoneSaoPaulo;
-	
-	
-	
-	
-	
 
 	public static void menu() {
 		beendenItem = new JMenuItem("Exit");
@@ -282,12 +277,7 @@ public class MainUhr {
 		
 		});
 		
-		
-		
-		
 	}
-
-
 
 	public static void main(String[] args) {
 

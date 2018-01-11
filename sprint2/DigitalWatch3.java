@@ -1,10 +1,6 @@
-
 import java.awt.*;
-
 import java.util.*;
-
 import javax.swing.*;
-
 import java.awt.event.ActionListener;
 import javax.swing.Timer;
 import java.awt.event.ActionEvent;
