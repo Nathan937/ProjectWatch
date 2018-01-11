@@ -70,7 +70,11 @@ nombre de montre afin d'avoir un résultat s'affichant dans la fenêtre.
 
 ## User Stories
 
+![image](https://user-images.githubusercontent.com/26046475/34837925-9db59e5e-f6fc-11e7-8206-2f2061cda5c4.png)
+
 ## Releaseplan
+
+![image](https://user-images.githubusercontent.com/26046475/34837889-85b48c3e-f6fc-11e7-818d-b15430d4c8a0.png)
 
 ## Informations annexes
 
@@ -80,6 +84,8 @@ Certains fichiers tels que DigitalWatch n'ont plus subis de mofification depuis 
 
 ### - Taskliste der User Stories
     
+![image](https://user-images.githubusercontent.com/26046475/34837900-8f198716-f6fc-11e7-9a3d-d1dcd339de73.png)
+
 ### - UML Klassen- und Sequenzdiagramme
    
    ![image](https://user-images.githubusercontent.com/26046475/34830996-e83f001c-f6e5-11e7-82ed-2a33bcf2f8e0.png)
@@ -103,6 +109,8 @@ Certains fichiers tels que DigitalWatch n'ont plus subis de mofification depuis 
 
 ### - Taskliste der User Stories
     
+![image](https://user-images.githubusercontent.com/26046475/34837903-93735ecc-f6fc-11e7-8d48-5f79acf268bd.png)
+
 ### - UML Klassen- und Sequenzdiagramme
    
 ![image](https://user-images.githubusercontent.com/26046475/34837289-a232369c-f6fa-11e7-802a-77a8abcd29a7.png)
@@ -126,7 +134,9 @@ Ci-dessous une capture d'écran du code du fichier main
 ## Documentation Sprint 3
 
 ### - Taskliste der User Stories
-    
+  
+![image](https://user-images.githubusercontent.com/26046475/34837913-9877aa2c-f6fc-11e7-9320-a14f9a99bc55.png)
+
 ### - UML Klassen- und Sequenzdiagramme
    
 ![image](https://user-images.githubusercontent.com/26046475/34837301-a9eb68ea-f6fa-11e7-924c-041aa461decb.png)
