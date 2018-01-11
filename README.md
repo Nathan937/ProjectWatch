@@ -104,6 +104,7 @@ Certains fichiers tels que DigitalWatch n'ont plus subis de mofification depuis 
 
 ### - Testfaelle bedingt durch Akzeptanzkritierium
 
+Tout les tests ont été effectué et le programme fonctionne.
 
 ## Documentation Sprint 2
 
@@ -130,6 +131,7 @@ Ci-dessous une capture d'écran du code du fichier main
    
 ### - Testfaelle bedingt durch Akzeptanzkritierium
 
+Tout les tests ont été effectué et le programme fonctionne.
 
 ## Documentation Sprint 3
 
