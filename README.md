@@ -1,6 +1,6 @@
 # ProjectWatch:
 
-Mitglieder Hollet Nathan, Jean Fues, Luka Aude, Dantoing Nicolas
+Mitglieder: Hollet Nathan, Jean Fues, Luka Aude, Dantoing Nicolas
 
 ## Inhaltsverzeichnis
 
@@ -92,11 +92,17 @@ Java: JRE
    
 ### - Dokumentation wichtiger Code Snippets
    
+   Ci-dessous une capture d'écran du code de la AnalogWatch
+   
 ![image](https://user-images.githubusercontent.com/26046475/34828745-cf3164f4-f6de-11e7-8dd6-57d917693792.png)
 ![image](https://user-images.githubusercontent.com/26046475/34828751-d2ef8f6c-f6de-11e7-801b-728c90cb7f3c.png)
 
+Ci-dessous une capture d'écran du code de la DigitalWatch mise à jour
+
 ![image](https://user-images.githubusercontent.com/26046475/34828759-d69e9f72-f6de-11e7-92d2-9ca0efd7e0ef.png)
 ![image](https://user-images.githubusercontent.com/26046475/34828763-d90a2dd0-f6de-11e7-89d9-eeac7110ca67.png)
+
+Ci-dessous une capture d'écran du code du fichier main
 
 ![image](https://user-images.githubusercontent.com/26046475/34828766-dc0e435e-f6de-11e7-83c8-b4e0e816678f.png)
 ![image](https://user-images.githubusercontent.com/26046475/34828770-de0c88dc-f6de-11e7-9838-ad565dd937b4.png)
@@ -106,17 +112,6 @@ Java: JRE
 
 
 ## Documentation Sprint 3
-
-### - Taskliste der User Stories
-    
-### - UML Klassen- und Sequenzdiagramme
-   
-### - Dokumentation wichtiger Code Snippets
-   
-### - Testfaelle bedingt durch Akzeptanzkritierium
-
-
-## Documentation Sprint 4
 
 ### - Taskliste der User Stories
     
