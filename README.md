@@ -57,8 +57,8 @@ Java: JRE
 
 ## Build-Anleitung
 
-    -Laden Sie sich die Datei .java auf ihren Pc runter. 
-    -Vergewissern Sie sich, dass Sie eine Java Runtime Environment auf Ihrem PC haben.
+    -Laden Sie sich die Dateien .java auf ihren Pc runter. 
+    -N'oubliez pas d'avoir un JRE d'installé sur votre ordinateur
     -Ouvrez les fichiers avec Eclipse (ou NetBeans, ...) et lancer le fichier main.
     
 
