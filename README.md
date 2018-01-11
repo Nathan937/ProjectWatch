@@ -72,6 +72,10 @@ nombre de montre afin d'avoir un résultat s'affichant dans la fenêtre.
 
 ## Releaseplan
 
+## Informations annexes
+
+Certains fichiers tels que DigitalWatch n'ont plus subis de mofification depuis le Sprint1 ils n'apparaitront qu'une fois en capture d'écran dans le "résumé" qui va suivre.
+
 ## Documentation Sprint 1
 
 ### - Taskliste der User Stories
@@ -108,11 +112,6 @@ nombre de montre afin d'avoir un résultat s'affichant dans la fenêtre.
 ![image](https://user-images.githubusercontent.com/26046475/34828745-cf3164f4-f6de-11e7-8dd6-57d917693792.png)
 ![image](https://user-images.githubusercontent.com/26046475/34828751-d2ef8f6c-f6de-11e7-801b-728c90cb7f3c.png)
 
-Ci-dessous une capture d'écran du code de la DigitalWatch mise à jour
-
-![image](https://user-images.githubusercontent.com/26046475/34828759-d69e9f72-f6de-11e7-92d2-9ca0efd7e0ef.png)
-![image](https://user-images.githubusercontent.com/26046475/34828763-d90a2dd0-f6de-11e7-89d9-eeac7110ca67.png)
-
 Ci-dessous une capture d'écran du code du fichier main
 
 ![image](https://user-images.githubusercontent.com/26046475/34828766-dc0e435e-f6de-11e7-83c8-b4e0e816678f.png)
@@ -143,11 +142,6 @@ Ci-dessous une capture d'écran du code de la DigitalWatch3
 
 ![image](https://user-images.githubusercontent.com/26046475/34830675-e4855cd8-f6e4-11e7-85c2-4077d465d084.png)
 ![image](https://user-images.githubusercontent.com/26046475/34830676-e72ceee2-f6e4-11e7-825b-7e69f6a6c55c.png)
-
-Ci-dessous une capture d'écran du code de la DigitalWatch mise à jour
-
-![image](https://user-images.githubusercontent.com/26046475/34830684-ecbb3134-f6e4-11e7-986e-0e6adbb86c95.png)
-![image](https://user-images.githubusercontent.com/26046475/34830686-ef61ec8e-f6e4-11e7-9f2e-7a80c2af7df5.png)
 
 Ci-dessous une capture d'écran du code de la AnalogWatch mise à jour
 
