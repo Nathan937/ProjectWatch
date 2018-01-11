@@ -69,6 +69,8 @@ Java: JRE
     
 ### - UML Klassen- und Sequenzdiagramme
    
+   ![image](https://user-images.githubusercontent.com/26046475/34830996-e83f001c-f6e5-11e7-82ed-2a33bcf2f8e0.png)
+   
 ### - Dokumentation wichtiger Code Snippets
 
   Ci-dessous une capture d'écran du code de la première DigitalWatch 
