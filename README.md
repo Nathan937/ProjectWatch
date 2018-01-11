@@ -96,11 +96,13 @@ Certains fichiers tels que DigitalWatch n'ont plus subis de mofification depuis 
   
 ![image](https://user-images.githubusercontent.com/26046475/34828402-bf6bc77c-f6dd-11e7-9ecf-a921d2fcd1d1.png)
 ![image](https://user-images.githubusercontent.com/26046475/34828407-c37903de-f6dd-11e7-8933-496a2311baa5.png)
+Le code permet d'avoir une montre sur un bouton. On peut afficher jusqu'à 4 bouton afin d'arreter la montre.
 
   Ci-dessous une capture d'écran du code du MenuBar qui faisait, à ce moment, office de main program
 
 ![image](https://user-images.githubusercontent.com/26046475/34828411-c67af628-f6dd-11e7-82c3-897a7ec73eb8.png)
 ![image](https://user-images.githubusercontent.com/26046475/34828415-c9562aca-f6dd-11e7-8ab1-991ed3f8bbb1.png)
+Une fenetre pour choisir ses options.
 
 ### - Testfaelle bedingt durch Akzeptanzkritierium
 
@@ -122,12 +124,14 @@ Tout les tests ont été effectué et le programme fonctionne.
    
 ![image](https://user-images.githubusercontent.com/26046475/34828745-cf3164f4-f6de-11e7-8dd6-57d917693792.png)
 ![image](https://user-images.githubusercontent.com/26046475/34828751-d2ef8f6c-f6de-11e7-801b-728c90cb7f3c.png)
+Une montre analogue s'ouvrant sur une fenetre suplémentaire. Elle est sur l'heure courante du systeme d'exploitation.
 
 Ci-dessous une capture d'écran du code du fichier main
 
 ![image](https://user-images.githubusercontent.com/26046475/34828766-dc0e435e-f6de-11e7-83c8-b4e0e816678f.png)
 ![image](https://user-images.githubusercontent.com/26046475/34828770-de0c88dc-f6de-11e7-9838-ad565dd937b4.png)
-
+Le main donne acces a la montre analogue et la montre digitale qui s'affiche egalement sur une autre fenetre en heure
+courante.
    
 ### - Testfaelle bedingt durch Akzeptanzkritierium
 
@@ -153,18 +157,21 @@ Ci-dessous une capture d'écran du code du main program mis à jour
 ![image](https://user-images.githubusercontent.com/26046475/34830643-ce464716-f6e4-11e7-9460-435e5270bbfa.png)
 ![image](https://user-images.githubusercontent.com/26046475/34830649-d0ac548c-f6e4-11e7-86b4-6e6134326749.png)
 ![image](https://user-images.githubusercontent.com/26046475/34830654-d3a07dc6-f6e4-11e7-85dc-e9e9beed893e.png)
+Le choix des différentes "TimeZone" est possible, défini sur les montres Analog et Digital. La première classe
+DigitalWatch est reimplementée. Tout est appelé sur la même fenetre.
 
 Ci-dessous une capture d'écran du code de la DigitalWatch3 
 
 ![image](https://user-images.githubusercontent.com/26046475/34830675-e4855cd8-f6e4-11e7-85c2-4077d465d084.png)
 ![image](https://user-images.githubusercontent.com/26046475/34830676-e72ceee2-f6e4-11e7-825b-7e69f6a6c55c.png)
+Correction de l'objet "Time"(TimeZone) et un appel de la fenetre de MainUhr. Affichage modifié.
 
 Ci-dessous une capture d'écran du code de la AnalogWatch mise à jour
 
 ![image](https://user-images.githubusercontent.com/26046475/34830693-f478839a-f6e4-11e7-9e90-418f563feb4c.png)
 ![image](https://user-images.githubusercontent.com/26046475/34830698-f6ed5f60-f6e4-11e7-9100-4c307e36ad68.png)
 ![image](https://user-images.githubusercontent.com/26046475/34832066-1f730fda-f6e9-11e7-8f4f-f92860951b86.png)
-
+Un nouveau "Thread"(TimeZone) et un appel de la fenetre de MainUhr.
  
 ### - Testfaelle bedingt durch Akzeptanzkritierium
 
