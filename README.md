@@ -29,11 +29,6 @@ Mitglieder: Hollet Nathan, Jean Fues, Luka Aude, Dantoing Nicolas
     + [Dokumentation wichtiger Code Snippets](#dokumentation-wichtiger-code-snippets)
     + [Testfaelle bedingt durch Akzeptanzkritierium](#testfaelle-bedingt-durch-akzeptanzkritierium)
     
-1. [Dokumentation Sprint 4](#dokumentation-sprint-4)
-    + [Taskliste der User Stories](#taskliste-der-user-stories)
-    + [UML Klassen- und Sequenzdiagramme](#uml-klassen-und-sequenzdiagramme)
-    + [Dokumentation wichtiger Code Snippets](#dokumentation-wichtiger-code-snippets)
-    + [Testfaelle bedingt durch Akzeptanzkritierium](#testfaelle-bedingt-durch-akzeptanzkritierium)
   
 ## Einleitung
 
@@ -59,7 +54,7 @@ Java: JRE
 
     -Laden Sie sich die Dateien .java auf ihren Pc runter. 
     -N'oubliez pas d'avoir un JRE d'installé sur votre ordinateur
-    -Ouvrez les fichiers avec Eclipse (ou NetBeans, ...) et lancer le fichier main.
+    -Lancer le fichier .jar
     
 
 ## Kurze Bedienungsanleitung
