@@ -105,6 +105,8 @@ Certains fichiers tels que DigitalWatch n'ont plus subis de mofification depuis 
     
 ### - UML Klassen- und Sequenzdiagramme
    
+![image](https://user-images.githubusercontent.com/26046475/34837289-a232369c-f6fa-11e7-802a-77a8abcd29a7.png)
+
 ### - Dokumentation wichtiger Code Snippets
    
    Ci-dessous une capture d'écran du code de la AnalogWatch
@@ -127,6 +129,8 @@ Ci-dessous une capture d'écran du code du fichier main
     
 ### - UML Klassen- und Sequenzdiagramme
    
+![image](https://user-images.githubusercontent.com/26046475/34837301-a9eb68ea-f6fa-11e7-924c-041aa461decb.png)
+
 ### - Dokumentation wichtiger Code Snippets
    
 Ci-dessous une capture d'écran du code du main program mis à jour
@@ -149,7 +153,7 @@ Ci-dessous une capture d'écran du code de la AnalogWatch mise à jour
 ![image](https://user-images.githubusercontent.com/26046475/34830698-f6ed5f60-f6e4-11e7-9100-4c307e36ad68.png)
 ![image](https://user-images.githubusercontent.com/26046475/34832066-1f730fda-f6e9-11e7-8f4f-f92860951b86.png)
 
-
-
-   
+ 
 ### - Testfaelle bedingt durch Akzeptanzkritierium
+
+Tout les tests ont été effectué et le programme fonctionne.
