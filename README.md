@@ -119,4 +119,32 @@ Ci-dessous une capture d'écran du code du fichier main
    
 ### - Dokumentation wichtiger Code Snippets
    
+Ci-dessous une capture d'écran du code du main program mis à jour
+ 
+![image](https://user-images.githubusercontent.com/26046475/34830625-c560007e-f6e4-11e7-8383-821951e2d306.png)
+![image](https://user-images.githubusercontent.com/26046475/34830635-c8924cb6-f6e4-11e7-8bff-2e3c575c3a64.png)
+![image](https://user-images.githubusercontent.com/26046475/34830641-cb96b974-f6e4-11e7-8fd8-eba5c0bbb84f.png)
+![image](https://user-images.githubusercontent.com/26046475/34830643-ce464716-f6e4-11e7-9460-435e5270bbfa.png)
+![image](https://user-images.githubusercontent.com/26046475/34830649-d0ac548c-f6e4-11e7-86b4-6e6134326749.png)
+![image](https://user-images.githubusercontent.com/26046475/34830654-d3a07dc6-f6e4-11e7-85dc-e9e9beed893e.png)
+
+Ci-dessous une capture d'écran du code de la DigitalWatch3 
+
+![image](https://user-images.githubusercontent.com/26046475/34830675-e4855cd8-f6e4-11e7-85c2-4077d465d084.png)
+![image](https://user-images.githubusercontent.com/26046475/34830676-e72ceee2-f6e4-11e7-825b-7e69f6a6c55c.png)
+
+Ci-dessous une capture d'écran du code de la DigitalWatch mise à jour
+
+![image](https://user-images.githubusercontent.com/26046475/34830684-ecbb3134-f6e4-11e7-986e-0e6adbb86c95.png)
+![image](https://user-images.githubusercontent.com/26046475/34830686-ef61ec8e-f6e4-11e7-9f2e-7a80c2af7df5.png)
+
+Ci-dessous une capture d'écran du code de la AnalogWatch mise à jour
+
+![image](https://user-images.githubusercontent.com/26046475/34830693-f478839a-f6e4-11e7-9e90-418f563feb4c.png)
+![image](https://user-images.githubusercontent.com/26046475/34830698-f6ed5f60-f6e4-11e7-9100-4c307e36ad68.png)
+![Uploading image.png…]()
+
+
+
+   
 ### - Testfaelle bedingt durch Akzeptanzkritierium
