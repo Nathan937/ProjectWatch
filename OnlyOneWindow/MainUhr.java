@@ -17,18 +17,35 @@ import javax.swing.WindowConstants;
 public class MainUhr {
 	
 	static Boolean [] mode= {false,false,false};
+	static String ID;
 	
 	static JFrame frame;
 	static JMenuBar menu;
 	static JMenu analogUhr;
 	static JMenuItem analoguhr;
 	static JMenu digitalUhr;
+	
 	static JMenuItem digitaluhr24;
 	static JMenuItem digitaluhr12;
+	
 	static JMenuItem mehrereDigitaleuhren;
 	static JMenuItem mehrereDigitaleuhren2;
 	static JMenu mehrereDigitaleUhren;
 	static JMenuItem digitalUhrZeit;
+	
+	static JMenu ZeitZone;
+	static JMenuItem ZeitZoneParis;
+	static JMenuItem ZeitZoneLondon;
+	static JMenuItem ZeitZoneLosAngeles;
+	static JMenuItem ZeitZoneNewYork;
+	static JMenuItem ZeitZoneTokyo;
+	static JMenuItem ZeitZonePekin;
+	static JMenuItem ZeitZoneBerlin;
+	static JMenuItem ZeitZoneSydney;
+	static JMenuItem ZeitZoneSeatle;
+	
+	
+	
 
 	public static void menu() {
 		menu = new JMenuBar();
@@ -40,6 +57,19 @@ public class MainUhr {
 		mehrereDigitaleUhren = new JMenu("Mehrere Digitale Uhren");
 		mehrereDigitaleuhren = new JMenuItem("1 Uhr");
 		mehrereDigitaleuhren2 = new JMenuItem("2 Uhren");
+		ZeitZone = new JMenu("ZeitZone");
+		//rajouter ici les autres fuseaux horraires
+		ZeitZoneParis = new JMenuItem("Paris");
+		ZeitZoneLondon = new JMenuItem("London");
+		ZeitZoneLosAngeles = new JMenuItem("Los Angeles");
+		ZeitZoneNewYork = new JMenuItem("New York");
+		ZeitZoneTokyo = new JMenuItem("Tokyo");
+		ZeitZonePekin = new JMenuItem("Pekin");
+		ZeitZoneBerlin = new JMenuItem("Berlin");
+		ZeitZoneSydney = new JMenuItem("Sydney");
+		ZeitZoneSeatle = new JMenuItem("Seatle");
+		
+		
 
 		frame.setJMenuBar(menu);
 		menu.add(analogUhr);
@@ -50,6 +80,16 @@ public class MainUhr {
 		digitalUhr.add(digitaluhr12);
 		mehrereDigitaleUhren.add(mehrereDigitaleuhren);
 		mehrereDigitaleUhren.add(mehrereDigitaleuhren2);
+		menu.add(ZeitZone);
+		// copier cette ligne avec le nom de la ville 
+		ZeitZone.add(ZeitZoneParis);
+		ZeitZone.add(ZeitZoneLondon);
+		ZeitZone.add(ZeitZoneLosAngeles);
+		ZeitZone.add(ZeitZoneNewYork);
+		ZeitZone.add(ZeitZonePekin);
+		ZeitZone.add(ZeitZoneBerlin);
+		ZeitZone.add(ZeitZoneSydney);
+		ZeitZone.add(ZeitZoneSeatle);
 		
 		
 	}
@@ -142,6 +182,130 @@ public class MainUhr {
 		});
 
 	}
+	
+	public static void ListenerZeitZonen() {
+		
+		ZeitZoneParis.addActionListener(new ActionListener() {
+			public void actionPerformed(ActionEvent arg0) {
+				System.out.println("ZeitZone Paris is comming");
+				Stop();
+				mode[2]=true;
+				
+				new DigitalWatch(frame,1);
+				
+				
+			}
+		
+		});
+		
+		ZeitZoneLondon.addActionListener(new ActionListener() {
+			public void actionPerformed(ActionEvent arg0) {
+				System.out.println("ZeitZone Paris is comming");
+				Stop();
+				mode[2]=true;
+				
+				new DigitalWatch(frame,1);
+				
+				
+			}
+		
+		});
+		
+		ZeitZoneLosAngeles.addActionListener(new ActionListener() {
+			public void actionPerformed(ActionEvent arg0) {
+				System.out.println("ZeitZone Paris is comming");
+				Stop();
+				mode[2]=true;
+				
+				new DigitalWatch(frame,1);
+				
+				
+			}
+		
+		});
+		
+		ZeitZoneNewYork.addActionListener(new ActionListener() {
+			public void actionPerformed(ActionEvent arg0) {
+				System.out.println("ZeitZone Paris is comming");
+				Stop();
+				mode[2]=true;
+				
+				new DigitalWatch(frame,1);
+				
+				
+			}
+		
+		});
+		
+		ZeitZoneTokyo.addActionListener(new ActionListener() {
+			public void actionPerformed(ActionEvent arg0) {
+				System.out.println("ZeitZone Paris is comming");
+				Stop();
+				mode[2]=true;
+				
+				new DigitalWatch(frame,1);
+				
+				
+			}
+		
+		});
+		
+		ZeitZonePekin.addActionListener(new ActionListener() {
+			public void actionPerformed(ActionEvent arg0) {
+				System.out.println("ZeitZone Paris is comming");
+				Stop();
+				mode[2]=true;
+				
+				new DigitalWatch(frame,1);
+				
+				
+			}
+		
+		});
+		
+		ZeitZoneBerlin.addActionListener(new ActionListener() {
+			public void actionPerformed(ActionEvent arg0) {
+				System.out.println("ZeitZone Paris is comming");
+				Stop();
+				mode[2]=true;
+				
+				new DigitalWatch(frame,1);
+				
+				
+			}
+		
+		});
+		
+		ZeitZoneSydney.addActionListener(new ActionListener() {
+			public void actionPerformed(ActionEvent arg0) {
+				System.out.println("ZeitZone Paris is comming");
+				Stop();
+				mode[2]=true;
+				
+				new DigitalWatch(frame,1);
+				
+				
+			}
+		
+		});
+		
+		ZeitZoneSeatle.addActionListener(new ActionListener() {
+			public void actionPerformed(ActionEvent arg0) {
+				System.out.println("ZeitZone Paris is comming");
+				Stop();
+				mode[2]=true;
+				
+				new DigitalWatch(frame,1);
+				
+				
+			}
+		
+		});
+		
+		
+		
+		
+	}
 
 
 
@@ -152,6 +316,7 @@ public class MainUhr {
 		ListenerDigitalUhr();
 		ListenerAnalogWatch();
 		ListenerMehrereDigitaleUhren();
+		ListenerZeitZonen();
 		frame.setDefaultCloseOperation(frame.EXIT_ON_CLOSE);
 		frame.setVisible(true);
 		
