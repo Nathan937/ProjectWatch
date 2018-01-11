@@ -71,8 +71,12 @@ Java: JRE
    
 ### - Dokumentation wichtiger Code Snippets
    
-   ![alt tag](https://cloud.githubusercontent.com/assets/3968618/9588666/d029268e-5029-11e5-8a0c-41ecd04207f4.png)
-   
+  
+![alt tag](https://user-images.githubusercontent.com/26046475/34828402-bf6bc77c-f6dd-11e7-9ecf-a921d2fcd1d1.png)
+![alt tag](https://user-images.githubusercontent.com/26046475/34828407-c37903de-f6dd-11e7-8933-496a2311baa5.png)
+![alt tag](https://user-images.githubusercontent.com/26046475/34828411-c67af628-f6dd-11e7-82c3-897a7ec73eb8.png)
+![image](https://user-images.githubusercontent.com/26046475/34828415-c9562aca-f6dd-11e7-8ab1-991ed3f8bbb1.png)
+
 ### - Testfaelle bedingt durch Akzeptanzkritierium
 
 
