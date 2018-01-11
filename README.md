@@ -153,7 +153,7 @@ Ci-dessous une capture d'écran du code de la AnalogWatch mise à jour
 
 ![image](https://user-images.githubusercontent.com/26046475/34830693-f478839a-f6e4-11e7-9e90-418f563feb4c.png)
 ![image](https://user-images.githubusercontent.com/26046475/34830698-f6ed5f60-f6e4-11e7-9100-4c307e36ad68.png)
-![Uploading image.png…]()
+![image](https://user-images.githubusercontent.com/26046475/34832066-1f730fda-f6e9-11e7-8f4f-f92860951b86.png)
 
 
 
