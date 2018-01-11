@@ -57,7 +57,16 @@ Java: JRE
 
 ## Build-Anleitung
 
+    -Laden Sie sich die Datei .java auf ihren Pc runter. 
+    -Vergewissern Sie sich, dass Sie eine Java Runtime Environment auf Ihrem PC haben.
+    -Ouvrez les fichiers avec Eclipse (ou NetBeans, ...) et lancer le fichier main.
+    
+
 ## Kurze Bedienungsanleitung
+
+Afin de lancer la montre lancer le fichier mainUhr puis ouvrer la barre de tâche, sélectionnez ensuite le format et le
+nombre de montre afin d'avoir un résultat s'affichant dans la fenêtre.
+
 
 ## User Stories
 
