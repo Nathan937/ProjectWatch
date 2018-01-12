@@ -1,6 +1,10 @@
 # ProjectWatch:
 
 Mitglieder: Hollet Nathan, Jean Fues, Luka Aude, Dantoing Nicolas
+Dilege = Jean Fues
+Pyrogenium = Luka Aude
+Nathan937 = Nathan Hollet
+ndantoing = Nicolas Dantoing
 
 ## Inhaltsverzeichnis
 
